@@ -1,5 +1,3 @@
-# examen_modulo3
-Examen Modulo 3
 /** CREACION DB EN DOCKER **/
 --EJECUTAR
 docker run --name some_postgres -e POSTGRES_USER=susan -e POSTGRES_PASSWORD=password -e POSTGRES_DB=mysusandb -p 5432:5432 -d postgres
